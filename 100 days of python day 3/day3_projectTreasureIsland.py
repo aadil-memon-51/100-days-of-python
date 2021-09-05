@@ -36,12 +36,12 @@ if road=="left":
         elif choice3=="yellow":
             print("You found the treasure! You Win!")
         else:
-            print("Wrong Choice!")
+            print("Wrong Choice! Game Over!")
     elif choice2=="swim":
         print("You get attacked by an angry trout. Game Over!")
     else:
-        print("Wrong Choice!")
+        print("Wrong Choice! Game Over!")
 elif road=="right":
     print("You fell into a hole. Game Over!")
 else:
-    print("Wrong Choice!")
+    print("Wrong Choice! Game Over!")
